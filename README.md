@@ -16,7 +16,7 @@ A fully responsive e-commerce application built using React, Vite, Tailwind CSS,
 
 ## 🌐 Live Demo
 
-🚀 **Coming Soon**
+🚀 (https://shopora-e-commerce-nine.vercel.app/)
 
 ---
 
