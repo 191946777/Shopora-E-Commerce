@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ProductCard from "../components/ProductCard";
 import axios from "axios";
 import { cartContext } from "../context/CartContext";
-
+import banner from "../assets/banner_2.png";
 import { Link, Outlet } from "react-router-dom";
 
 const ProductDetails = () => {
@@ -96,7 +96,7 @@ const ProductDetails = () => {
             </Link>
           </div>
           <div className="hidden sm:block md:-mt-42 lg:mt-0 ">
-            <img width={500} src="src\assets\banner_2.png" alt="" />
+            <img width={500} src={banner} alt="" />
           </div>
         </div>
       </div>
