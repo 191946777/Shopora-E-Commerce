@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo-final.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
         <div>
           <img
             width={120}
-            src="src/assets/logo-final.png"
+            src={logo}
             alt="Shopora Logo"
           />
         </div>
